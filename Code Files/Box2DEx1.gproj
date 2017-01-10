@@ -1,0 +1,63 @@
+<project>
+ <properties winrt_package="com.yourdomain.yourapp" ios_bundle="com.yourdomain." logicalHeight="480" mouseTouchOrder="0" exportMode="0" app_name="" build_number="1" logicalWidth="320" winrt_org="GiderosMobile" osx_org="GiderosMobile" version_code="1" backgroundColor="#ffffff" fps="60" osx_bundle="com.yourdomain." iosDevice="0" packageName="com.yourdomain.yourapp" encryptCode="0" touchToMouse="1" osx_category="5" windowHeight="0" win_org="GiderosMobile" retinaDisplay="0" orientation="1" osx_domain="giderosmobile.com" windowWidth="0" android_template="0" tv_icon="" app_icon="" scaleMode="0" architecture="0" disableSplash="0" autorotation="0" encryptAssets="0" win_domain="giderosmobile.com" mouseToTouch="1" splash_v_image="" html5_host="" version="1.0" html5_mem="256" splash_h_image="">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <file source="level5.lua"/>
+ <file source="log.lua"/>
+ <file source="Store.lua"/>
+ <file source="Begin.lua"/>
+ <file source="level4.lua"/>
+ <file source="level3.lua"/>
+ <file source="brick.lua"/>
+ <file source="orb.lua"/>
+ <file source="ice.lua"/>
+ <file source="sponge.lua"/>
+ <file source="myBall.lua"/>
+ <file source="wall.lua"/>
+ <file source="Start.lua"/>
+ <file source="easing.lua"/>
+ <file source="scenemanager.lua"/>
+ <file source="config.lua"/>
+ <file source="level2.lua"/>
+ <file source="level1.lua"/>
+ <file source="main.lua"/>
+ <folder name="images">
+  <file source="logImage.png"/>
+  <file source="cameralense.png"/>
+  <file source="chromeball.png"/>
+  <file source="trippyBall.png"/>
+  <file source="bowling.png"/>
+  <file source="8ball.png"/>
+  <file source="soccerball.png"/>
+  <file source="circle.png"/>
+  <file source="homebutton.png"/>
+  <file source="blank.png"/>
+  <file source="shoppingcart.png"/>
+  <file source="play.png"/>
+  <file source="shopcart.png"/>
+  <file source="lock.png"/>
+  <file source="ball.png"/>
+  <file source="brick.jpg"/>
+  <file source="goBtn.png"/>
+  <file source="stopBtn.png"/>
+  <file source="LeftRight.png"/>
+  <file source="pause_play_stop_black.png"/>
+  <file source="updown.png"/>
+  <file source="orb.png"/>
+  <file source="redorb.png"/>
+  <file source="yelloworb.png"/>
+  <file source="crackedice.png"/>
+  <file source="crackedice2.png"/>
+  <file source="crackedice3.png"/>
+  <file source="sponge.png"/>
+  <file source="presspause.png"/>
+  <file source="ice.png"/>
+  <file source="pressplay.png"/>
+  <file source="button.png"/>
+ </folder>
+ <dependency to="easing.lua" from="config.lua"/>
+ <dependency to="scenemanager.lua" from="config.lua"/>
+ <dependency to="Store.lua" from="level1.lua"/>
+</project>
