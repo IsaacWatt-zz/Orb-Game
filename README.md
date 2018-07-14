@@ -6,13 +6,13 @@ Points are awarded for doing so, which can be used to obtain different themed or
 <table align="center">
     <tr>
         <td>
-            <img src="https://github.com/IsaacWatt/Orb-Game/blob/master/docs/orb1.jpg" width="250px">
+            <img src="https://github.com/IsaacWatt/Orb-Game/blob/master/docs/levels.jpg" width="250px">
         </td>
         <td>
-            <img src="https://github.com/IsaacWatt/Orb-Game/blob/master/docs/orb1.jpg" width="250px">
+            <img src="https://github.com/IsaacWatt/Orb-Game/blob/master/docs/menu.jpg" width="250px">
         </td>
         <td>
-            <img src="https://github.com/IsaacWatt/Orb-Game/blob/master/docs/orb1.jpg" width="250px">
+            <img src="https://github.com/IsaacWatt/Orb-Game/blob/master/docs/shop.jpg" width="250px">
         </td>
     </tr>
 </table>
