@@ -57,13 +57,13 @@ Thus, a user will begin on level 1, with 60$ of in game currency.
 <table align="center">
     <tr>
         <td>
-            <video src="https://github.com/IsaacWatt/Orb-Game/blob/master/docs/gameplay1.mp4" width="320" height="200" controls preload></video>
+		<img src="https://github.com/IsaacWatt/Orb-Game/blob/master/docs/gameplay1.gif" width="250px">
         </td>
         <td>
-            <img src="" width="250px">
+            <img src="https://github.com/IsaacWatt/Orb-Game/blob/master/docs/gameplay1.gif" width="250px">
         </td>
         <td>
-            <img src="" width="250px">
+            <img src="https://github.com/IsaacWatt/Orb-Game/blob/master/docs/gameplay1.gif" width="250px">
         </td>
     </tr>
 </table>
