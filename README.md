@@ -22,11 +22,11 @@ Points are awarded for doing so, which can be used to obtain different themed or
 - [Gameplay](#gameplay)
 
 - [Features](#features)
-    -[The Shop](#the-shop)
-    -[Obstacles](#obstacles)
+    - [The Shop](#the-shop)
+    - [Obstacles](#obstacles)
     
 - [How to run Orb Game](#how-to-run-orb-game)
-    
+
 ### Gameplay
 
 When in a level launch the orb by pressing the play button. Once this has been pressed, the orb must be recalibrated by pressing the pause button. You must alternate between these two buttons when playing. To adjust your x velocity, simply press the up and down arrows above "x power" to do so. Similarly, to adjust your y velocity simply adjust the up and down arrows above "y power". When you have completed the stage, the stage will fade out and you will unlock the next stage. If you choose to quit early, simply press the home button. 
