@@ -20,9 +20,11 @@ Points are awarded for doing so, which can be used to obtain different themed or
 ## Table of Contents
 
 - [Gameplay](#gameplay)
+
 - [Features](#features)
     -[The Shop](#the-shop)
     -[Obstacles](#obstacles)
+    
 - [How to run Orb Game](#how-to-run-orb-game)
     
 ### Gameplay
