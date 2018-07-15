@@ -74,7 +74,7 @@ Thus, a user will begin on level 1, with 60$ of in game currency.
 Every time you complete a stage, you are awarded with $60 in game currency. This in game currency can be spent at the shop, which is found on the home screen. Here you are able to purchase differently themes orbs and use them as you proceed through the levels! 
 
 #### Obstacles 
-Orb Game implements differently created obsticles each with different properties and side effects. Each object is created with a `createFixture` object which defines properties of each body. The following obsticle types have been implemented: 
+Orb Game implements differently created obstacles each with different properties and side effects. Each object is created with a `createFixture` object which defines properties of each body. The following obstacle types have been implemented: 
 
 ```
 Brick
@@ -83,7 +83,7 @@ Logs
 Ice 
 ```
 
-Each obsticle is created with a constructor that looks as follows, this specific example highlights the `createFixture` for a `brick`. 
+Each obstacle is created with a constructor that looks as follows, this specific example highlights the `createFixture` for a `brick`. 
 ```lua
 function brick:init(world, x, y)
     -- add child to scene
@@ -96,7 +96,7 @@ end
 ```
 A brick is made to be more dense than an orb, thus it is more resistant to a change in position and will not move as easily if it is hit. 
 
-The `sponge` fixture creates an obsticle with a high density and friction to ensure it cannot be pushed around, along with a restitution such that if the orb touches the sponge, the orb will bounce off of it. 
+The `sponge` fixture creates an obstacle with a high density and friction to ensure it cannot be pushed around, along with a restitution such that if the orb touches the sponge, the orb will bounce off of it. 
 
 The `log` constructor implements a `changeScale` function, that is called when the `log` is touched. Thus each time the orb hits a `log`, it will grow in size. This looks as follows: 
 ```lua
@@ -119,7 +119,7 @@ end
 
 The `ice` constructor uses a function called `updateSprite` which allows the ice to crack when it is hit. Ice has a low friction value in its fixture which looks as follows: 
 `body:createFixture{shape = poly, density = 0.5, friction = 0.01, restitution = 0.3}`. 
-When the Orb hits an ice obsticle, the img property of the ice will be replaced with a slightly more cracked version of the ice img. This happens each time the ice is hit. 
+When the Orb hits an ice obstacle, the img property of the ice will be replaced with a slightly more cracked version of the ice img. This happens each time the ice is hit. 
 
 ### How to run Orb Game
 To run the orb game, download the [Gideros Package](https://github.com/gideros/gideros/releases) (you will need Gideros Studio and the Gideros Player). Then run the `Box2DEx1.gproj` executable. From here you can open the Gideros Player, and hit run. 
